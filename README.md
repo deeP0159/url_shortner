@@ -29,6 +29,7 @@ Includes REST endpoints to shorten URLs and redirect users to the original links
 
 ### Create a short URL
 ```bash
-curl -X POST http://localhost:3000/shorten \
+curl -X POST http://<your-server-host>:3000/shorten \
   -H "Content-Type: application/json" \
   -d '{"url": "https://github.com"}'
+
